@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: General Coding Rules
+globs:
+alwaysApply: true
+---
