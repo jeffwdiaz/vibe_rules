@@ -16,7 +16,7 @@ A collaborative platform where communities, creators, and individuals can showca
 
 4. Nice to do: Write a short description at the top of the rules that describe the ruleset.
 
-![Github cheat sheet](https://github.com/jeffwdiaz/vibe_rules/images/git_cheat_sheet.png "Github Cheat Sheet")
+![Github cheat sheet](https://github.com/jeffwdiaz/vibe_rules/blob/main/images/git_cheat_sheet.png "Github Cheat Sheet")
 
 ## License
 
