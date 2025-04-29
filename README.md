@@ -4,11 +4,17 @@ A collaborative platform where communities, creators, and individuals can showca
 
 # Instructions
 
-1. Put your rules inside of a folder that is named after your github username.
+1. Clone this repo.
+
+2. Make a folder with your username.
+
+3. Put your rules inside of a folder that is named after your github username.
     Good Example: jeffwdiaz/global_rules.mdc
     Bad Example: jeffwdiaz/.cursor/.rules/global_rules.mdc
 
-2. Nice to do: Write a short description at the top of the rules that describe the ruleset.
+4. Stage, commit and push/pull request.
+
+4. Nice to do: Write a short description at the top of the rules that describe the ruleset.
 
 ## License
 
