@@ -2,14 +2,16 @@
 
 A collaborative platform where communities, creators, and individuals can showcase, share, and discover community rules and guidelines. Whether you're running a Discord server, managing a social media community, or organizing an event, Vibe Rules helps you create, display, and share your community's principles in a beautiful and engaging way.
 
-# Instructions
+# Git Knowledge
+### Clone this repository
 
-1. Clone this repo.
-
-Open the cmd line
-
-cd ~/yourfolder                             # move to the folder where you want it, ex: yourfolder
-git clone https://github.com/jeffwdiaz/vibe_rules.git
+Open the cmd line and use `cd` to change directory  
+```
+cd ~/yourfolder
+```
+Example:  
+`C:\Users\jwd\Desktop\github>`  
+`git clone https://github.com/jeffwdiaz/vibe_rules.git`
 
 2. Make a folder with your username.
 
