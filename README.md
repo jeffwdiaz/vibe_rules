@@ -3,37 +3,61 @@
 A collaborative platform where communities, creators, and individuals can showcase, share, and discover community rules and guidelines. Whether you're running a Discord server, managing a social media community, or organizing an event, Vibe Rules helps you create, display, and share your community's principles in a beautiful and engaging way.
 
 # Git Knowledge
-### Clone this repository
+Follow this guide to learn the basics of using github.
 
-Open the cmd line and use `cd` to change directory  
-```
-cd ~/yourfolder
-```
-Example:  
-`C:\Users\jwd\Desktop\github>`  
+<br>
+
+## 1. Clone this repository
+
+Open the cmd line and use `cd` to change directory to the path where you want to clone the repo.    
+`cd ~/REPLACE-WITH-PATH`  
+
+When in the directory you want to clone  
 `git clone https://github.com/jeffwdiaz/vibe_rules.git`
 
-2. Make a folder with your username.
+## 2. Make a change to the repository
 
-cd vibe_rules                              # change your directory to the cloned repo
-mkdir YOURUSERNAME                             # make your folder
+Change your directory to the cloned repo and make a folder with your username.
+`cd vibe_rules`  
 
-3. Put your rules inside of a folder that is named after your github username.
-    Good Example: jeffwdiaz/global_rules.mdc
-    Bad Example: jeffwdiaz/.cursor/.rules/global_rules.mdc
+Make a folder with the format first_last  
+`mkdir first_last`
 
-4. Stage, commit and push/pull request.
+Put your rules, prompts, guidelines, etc. inside.  
 
-Create a new branch
-git checkout main                                  # make sure your on the main branch
-git pull origin main                                # sync your clone with the main repository
-git checkout -b "YOURUSERNAME/rules"                # make your branch
+Good Examples:  
+`jeff_diaz/global_rules.mdc`  
+`jeff_diaz/image_prompts.txt`  
 
-Commit regularly as you complete tasks
-git add .                                           # stage your rules
-git commit -m "added YOURUSERNAME rules"            # commit your staged files
-git push --set-upstream origin YOURUSERNAME/rules   # create a copy of your branch in main once
-git push                                            # push
+Bad Example:  
+`my_prompting_technieques/.cursor/.rules/global_rules.mdc`
+
+## 3. Stage > commit > pull request
+
+Change to the main branch  
+`git checkout main`
+
+Sync your clone with the main repository  
+`git pull origin main`
+
+Create your branch  
+`git checkout -b "YOUR_USERNAME-rules"`
+
+***Commit regularly as you complete tasks by using the following workflow.***  
+
+Stage your rules  
+`git add .`  
+Commit your staged files  
+`git commit -m "added YOUR_USERNAME rules"`  
+Create a copy of your branch in main once  
+`git push --set-upstream origin YOURUSERNAME/rules`  
+Push to github  
+`git push` 
+
+< - - STILL FIXING BELOW - - >  
+< - - STILL FIXING BELOW - - >  
+< - - STILL FIXING BELOW - - >  
+< - - STILL FIXING BELOW - - >  
 
 Merge into main when finished
 git checkout main
